@@ -1,0 +1,24 @@
+{
+  "name": "getadate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getADate.js",
+  "dependencies": {
+    "figlet": "^1.2.3",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyIzCool/getADate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyIzCool/getADate/issues"
+  },
+  "homepage": "https://github.com/TonyIzCool/getADate#readme"
+}

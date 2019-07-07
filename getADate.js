@@ -6,7 +6,13 @@ let flexResult = ["She's unimpressed. Uninterested. Unbothered, cuz every girl i
 let beYourselfResult = ["You decided to be yourself, which is probably the worst thing you could have done. G A M E O V E R", "The stars have literally aligned because she totally likes you for you! Congratulations you gotADate! Against all odds! Being yourself isn't even a strategy, let alone a winning one. But if you succeed in this way it means more."]
 let funnyPickupLines = ["Girl is your name Google? Cuz you got everything I'm searching for!", "Girl are you a Nissan? Cuz I want you Altima self!",]
 let googlePickupResults = ["Great line honestly. It's not surprising she's heard it before. Too bad.", "She hasn't heard it before so of course she thinks you're funny. Congratulations you gotADate! Try not to bore her to death."]
-console.log("getADate")
+const figlet = require('figlet')
+
+console.log(figlet.textSync('getADate', {
+    font: 'Graffiti',
+    horizontalLayout: 'default',
+    verticalLayout: 'default'
+}));
 console.log("That's the name of the game, and your objective basically")
 index = readlineSync.keyInSelect(genders, 'Are you a guy or a girl?');
 if(index === 1) {
