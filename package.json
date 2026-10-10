@@ -4,7 +4,7 @@
   "description": "",
   "main": "getADate.js",
   "dependencies": {
-    "figlet": "^1.2.3",
+    "figlet": "^1.11.3",
     "readline-sync": "^1.4.9"
   },
   "devDependencies": {},
